@@ -1,0 +1,1499 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop</title>
+    <link rel="stylesheet" href="css/shop.css">
+    <script src="js/shop.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <!-- Подключите Poppins через Google Fonts в <head> -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+
+
+    <!-- Верхний информационный бар -->
+    <div class="header-top">
+    <div class="header-info">
+        <span class="info-item">
+        <i class="fas fa-envelope"></i>
+        info@techstore.com
+        </span>
+        <span class="info-item">
+        <i class="fas fa-map-marker-alt"></i>
+        Store Location
+        </span>
+    </div>
+    <div class="header-promo">
+        <span>Free shipping on orders over $50</span>
+        <div class="social-links">
+        <span>Follow us:</span>
+        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+        <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+        </div>
+    </div>
+    </div>
+
+    <!-- Основной header -->
+    <header class="header">
+    <img src="img/gllogo.jpg" alt="Tech Store Logo" class="logo">
+    <nav>
+        <ul>
+        <li><a href="#">Laptops</a></li>
+        <li><a href="#">Desktop PCs</a></li>
+        <li><a href="#">Printers & Scanners</a></li>
+        <li><a href="#">Networking Devices</a></li>
+        <li><a href="#">PC Parts</a></li>
+        <li><a href="#">All Other Products</a></li>
+        <li><a href="#">Repairs</a></li>
+        </ul>
+    </nav>
+    <div class="header-actions">
+        <button class="header-icon" aria-label="Search"><i class="fas fa-search"></i></button>
+        <button class="header-icon cart" aria-label="Cart">
+        <i class="fas fa-shopping-cart"></i>
+        <span class="cart-badge">2</span>
+        </button>
+    </div>
+    </header>
+
+    <div class="wrapper">
+        <div class="content">
+            <div class="header">
+            </div>
+            <div class="shop-img">
+                <img src="img/advertising.png" alt="header-img">
+            </div>
+            <div class="navigation">
+                <div class="container-nav">
+                    <div class="nav-row">
+                        <div class="nav-body">
+                            <span class="nav-home">Home
+                                <svg class="submenu-arrow-right" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 320 512" fill="black">
+                                    <path d="M143 352.3l-136.5-136c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0L160 302.1l119.6-119.6c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9L177 352.3c-9.4 9.4-24.6 9.4-34 0z"/>
+                                </svg>
+                            </span>
+                            <span class="nav-laptops">Laptops
+                                <svg class="submenu-arrow-right" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 320 512" fill="black">
+                                    <path d="M143 352.3l-136.5-136c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0L160 302.1l119.6-119.6c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9L177 352.3c-9.4 9.4-24.6 9.4-34 0z"/>
+                                </svg>
+                            </span>
+                            <span class="nav-everyday-use-notebooks">Everyday Use Notebooks
+                                <svg class="submenu-arrow-right" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 320 512" fill="black">
+                                    <path d="M143 352.3l-136.5-136c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0L160 302.1l119.6-119.6c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9L177 352.3c-9.4 9.4-24.6 9.4-34 0z"/>
+                                </svg>
+                            </span>
+                            <span class="MSI-prestige-series">MSI Prestige Series
+                                <svg class="submenu-arrow-right" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 320 512" fill="black">
+                                    <path d="M143 352.3l-136.5-136c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0L160 302.1l119.6-119.6c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9L177 352.3c-9.4 9.4-24.6 9.4-34 0z"/>
+                                </svg>
+                            </span>
+                            <span class="MSI-WS-series">MSI WS Series
+                                <!-- <svg class="submenu-arrow" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 320 512" fill="black">
+                                    <path d="M143 352.3l-136.5-136c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0L160 302.1l119.6-119.6c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9L177 352.3c-9.4 9.4-24.6 9.4-34 0z"/>
+                                </svg> -->
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="shop-title">
+                <h2 class="shop-title-text">MSI PS Series (20)</h2>
+            </div>
+            <div class="page-panel">
+                <div class="container-page-panel">
+                    <div class="page-panel-row">
+                        <div class="page-panel-body">
+                           <a href="index.html" class="back-button">
+    <svg class="submenu-arrow-left" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 320 512" fill="black">
+        <path d="M143 352.3l-136.5-136c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0L160 302.1l119.6-119.6c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9L177 352.3c-9.4 9.4-24.6 9.4-34 0z"/>
+    </svg>
+    Back
+</a>
+                            <div class="quantity-items">
+                                Items 1-35 of 61
+                            </div>
+                            <div class="sort-button"><span style=" color: #A3A3A3;">Sort By:</span> Position
+                                <svg class="submenu-arrow-down" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 320 512" fill="black">
+                                    <path d="M143 352.3l-136.5-136c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0L160 302.1l119.6-119.6c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9L177 352.3c-9.4 9.4-24.6 9.4-34 0z"/>
+                                </svg>
+                            </div>
+                            <div class="show-button"><span style=" color: #A3A3A3;">Show: 35</span> per page
+                                <svg class="submenu-arrow-down" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 320 512" fill="black">
+                                    <path d="M143 352.3l-136.5-136c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0L160 302.1l119.6-119.6c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9L177 352.3c-9.4 9.4-24.6 9.4-34 0z"/>
+                                </svg>
+                            </div>
+                            <div class="view-switch">
+                                <div class="grid-view">
+                                    <button class="view-button active" id="gridBtn">
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <rect x="3" y="3" width="5" height="5" fill="currentColor"/>
+                                            <rect x="10" y="3" width="5" height="5" fill="currentColor"/>
+                                            <rect x="17" y="3" width="5" height="5" fill="currentColor"/>
+                                            <rect x="3" y="10" width="5" height="5" fill="currentColor"/>
+                                            <rect x="10" y="10" width="5" height="5" fill="currentColor"/>
+                                            <rect x="17" y="10" width="5" height="5" fill="currentColor"/>
+                                            <rect x="3" y="17" width="5" height="5" fill="currentColor"/>
+                                            <rect x="10" y="17" width="5" height="5" fill="currentColor"/>
+                                            <rect x="17" y="17" width="5" height="5" fill="currentColor"/>
+                                        </svg>
+                                    </button>
+                                </div>
+                                <div class="list-view">
+                                    <button class="view-button" id="listBtn">
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <rect x="3" y="5" width="18" height="2" fill="currentColor"/>
+                                            <rect x="3" y="11" width="14" height="2" fill="currentColor"/>
+                                            <rect x="3" y="17" width="10" height="2" fill="currentColor"/>
+                                        </svg>
+                                    </button>
+                                </div>
+                                <!--grid-view/Сеточный вид  list-view/Строчный вид или список
+                                перекючатель вида отображения товара  grid-view это отоброжения какрточек в несколько колонок
+                                а list-view это в вертикальном виде калонки-->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="page-content">
+                <!-- Левая часть — ФИЛЬТРЫ -->
+                <div class="filters-cards">
+                    <div class="filters-cards-container">
+                        <div class="filters-cards-row">
+                            <div class="filters-cards-body">
+                                <div class="filters-container">
+                                    <div class="filters-body">
+                                        <div class="filters">
+                                            <b>Filters</b>
+                                        </div>
+                                        <div class="clear-filter-button"><button style=" color: #A3A3A3;"><b>Clear Filter</b></button></div>
+                                        <div class="category">
+                                            <button class="category-button" id="categoryToggle"><b>Category</b>
+                                                <svg class="submenu-arrow-up" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 320 512" fill="black">
+                                                    <path d="M143 352.3l-136.5-136c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0L160 302.1l119.6-119.6c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9L177 352.3c-9.4 9.4-24.6 9.4-34 0z"/>
+                                                </svg>
+                                            </button> 
+                                            <ul class="category-dropdown" id="categoryDropdown">
+                                                <li>CUSTOM PCS <span>15</span></li> 
+                                                <li>MSI ALL-IN-ONE PCS <span>45</span></li>
+                                                <li>HP/COMPAQ PCS <span>1</span></li>
+                                            </ul>
+                                            <!-- Скорее всего эти выпадающее списки это ссылки потом можно при случае добавить -->
+                                        </div>
+                                        <div class="price">
+                                            <button class="price-button" id="priceToggle"><b>Price</b>
+                                                <svg class="submenu-arrow-up" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 320 512" fill="black">
+                                                    <path d="M143 352.3l-136.5-136c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0L160 302.1l119.6-119.6c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9L177 352.3c-9.4 9.4-24.6 9.4-34 0z"/>
+                                                </svg>
+                                            </button> 
+                                            <ul class="price-dropdown" id="priceDropdown">
+                                                <li>$0.00 - $1,000.00<span>19</span></li> 
+                                                <li>$1,000.00 - $2,000.00<span>21</span></li>
+                                                <li>$2,000.00 - $3,000.00<span>9</span></li>
+                                                <li>$3,000.00 - $4,000.00<span>6</span></li>
+                                                <li>$4,000.00 - $5,000.00<span>3</span></li>
+                                                <li>$5,000.00 - $6,000.00<span>1</span></li>
+                                                <li>$6,000.00 - $7,000.00<span>1</span></li>
+                                                <li>$7,000.00 And Above<span>1</span></li>
+                                            </ul>
+                                        </div>
+                                        <div class="color">
+                                            <button class="color-button" id="colorToggle"><b>Color</b>
+                                                <svg class="submenu-arrow-up" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 320 512" fill="black">
+                                                    <path d="M143 352.3l-136.5-136c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0L160 302.1l119.6-119.6c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9L177 352.3c-9.4 9.4-24.6 9.4-34 0z"/>
+                                                </svg>
+                                            </button> 
+                                            <ul class="color-dropdown" id="colorDropdown">
+                                                <li style="background: rgb(0, 0, 0);" title="Black"></li>
+                                                <li style="background: rgb(0, 0, 145)" title="blue"></li>
+                                                <li style="background: rgb(231, 224, 224)" title="white"></li>
+                                                <li style="background: rgb(128, 128, 128);" title="Gray"></li>
+                                            </ul>
+                                        </div>
+                                        <div class="Filter-Name">
+                                            <button class="Filter-Name-button" id="filterNameToggle"><b>Filter Name</b>
+                                                <svg class="submenu-arrow-up" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 320 512" fill="black">
+                                                    <path d="M143 352.3l-136.5-136c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0L160 302.1l119.6-119.6c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9L177 352.3c-9.4 9.4-24.6 9.4-34 0z"/>
+                                                </svg>
+                                            </button>
+                                            <ul class="Filter-Name-dropdown" id="filterNameDropdown">
+                                                <li>Option 1</li>
+                                                <li>Option 2</li>
+                                                <li>Option 3</li>
+                                            </ul>
+                                            <button class="Apply-Filters-button"><b>Apply Filters (2)</b></button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="brands-container">
+                                    <div class="brands-body">
+                                        <div class="brands">
+                                            <b>Brands</b>
+                                        </div>
+                                        <div class="all-brands-button">
+                                            <b>All Brands</b>
+                                        </div>
+                                    </div>
+                                    <div class="brands-img">
+                                        <div class="brand1"><img src="img/brands1.png" alt="brand"></div>
+                                        <div class="brand2"><img src="img/brands2.png" alt="brand"></div>
+                                        <div class="brand3"><img src="img/brands3.png" alt="brand"></div>
+                                        <div class="brand4"><img src="img/brands4.png" alt="brand"></div>
+                                        <div class="brand5"><img src="img/brands5.png" alt="brand"></div>
+                                        <div class="brand6"><img src="img/brands6.png" alt="brand"></div>
+                                    </div>
+                                </div>
+                                <div class="compare-products-container">
+                                    <div class="compare-products-body">
+                                        <p style="font-size: 18px; margin: 15px 0 25px 0;"><b>Compare-Products</b></p>
+                                        <p style="font-size: 14px; margin: 0;">You have no items to compare.</p>
+                                    </div>
+                                </div>
+                                <div class="wish-list-container">
+                                    <div class="wish-list-body">
+                                        <p style="font-size: 18px; margin: 15px 0 25px 0;"><b>My Wish List</b></p>
+                                        <p style="font-size: 14px; margin: 0;">You have no items in your wish list.</p>
+                                    </div>
+                                </div>
+                                <div class="armchair">
+                                    <img src="img/filters-armchair.png" alt="armchair">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="right-page">
+                    <div class="filters-active">
+                        <div class="filter-one">
+                            <b>CUSTOM PCS <span style="color: #A3A3A3; margin: 4px;">(24)</span></b>
+                            <svg width="20" height="20" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="20" cy="20" r="20" fill="#FF0000" />
+                                <line x1="12" y1="12" x2="28" y2="28" stroke="white" stroke-width="3" stroke-linecap="round" />
+                                <line x1="28" y1="12" x2="12" y2="28" stroke="white" stroke-width="3" stroke-linecap="round" />
+                            </svg>
+                        </div>
+                        <div class="filter-two">
+                            <b>HP/COMPAQ PCS <span style="color: #A3A3A3; margin: 4px;">(24)</span></b>
+                            <svg width="20" height="20" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="20" cy="20" r="20" fill="#FF0000" />
+                                <line x1="12" y1="12" x2="28" y2="28" stroke="white" stroke-width="3" stroke-linecap="round" />
+                                <line x1="28" y1="12" x2="12" y2="28" stroke="white" stroke-width="3" stroke-linecap="round" />
+                            </svg>
+                        </div>
+                        <div class="clear-all-button">
+                            <button><b>Clear All</b></button>
+                        </div>
+                    </div>
+                    <!-- Правая часть — КАРТОЧКИ ТОВАРОВ -->
+                     
+                    <div class="products-cards  grid-view">
+                        <div class="products-grid">
+                            <div class="product-card">
+                                <div class="product-body">
+                                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none">
+                                        <circle cx="12" cy="12" r="12" fill="#28a745" /> <!-- Зелёный круг -->
+                                        <path d="M7 12l3 3 7-7" stroke="white" stroke-width="2" fill="none" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                    </svg>
+                                    <span style="font-size: 10px; color: #28a745; font-weight: bold;">In stock</span>
+                                    <img src="img/laptop1.png" alt="laptop">
+                                    <div class="rating-stars">
+                                        <!-- Жёлтые звёзды -->
+                                        <svg width="13" height="13" viewBox="0 0 24 24" fill="#E9A426" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M12 2L14.85 8.47L22 9.24L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.24L9.15 8.47L12 2Z" />
+                                        </svg>
+                                        <svg width="13" height="13" viewBox="0 0 24 24" fill="#E9A426" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M12 2L14.85 8.47L22 9.24L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.24L9.15 8.47L12 2Z" />
+                                        </svg>
+                                        <svg width="13" height="13" viewBox="0 0 24 24" fill="#E9A426" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M12 2L14.85 8.47L22 9.24L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.24L9.15 8.47L12 2Z" />
+                                        </svg>
+                                        <svg width="13" height="13" viewBox="0 0 24 24" fill="#E9A426" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M12 2L14.85 8.47L22 9.24L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.24L9.15 8.47L12 2Z" />
+                                        </svg>
+                            
+                                        <!-- Серая звезда -->
+                                        <svg width="13" height="13" viewBox="0 0 24 24" fill="#CACDD8" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M12 2L14.85 8.47L22 9.24L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.24L9.15 8.47L12 2Z" />
+                                        </svg>
+                                        <span class="card-reviews">Reviews (4)</span>
+                                        <p class="cars-text">EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...</p>
+                                        <p style="font-size: 14px;"><del>$499.00</del></p>
+                                        <p style="font-size: 18px;"> <b>$499.00</b></р>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-card">
+                                <div class="product-body">
+                                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none">
+                                        <circle cx="12" cy="12" r="12" fill="#28a745" /> <!-- Зелёный круг -->
+                                        <path d="M7 12l3 3 7-7" stroke="white" stroke-width="2" fill="none" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                    </svg>
+                                    <span style="font-size: 10px; color: #28a745; font-weight: bold;">In stock</span>
+                                    <img src="img/laptop2.png" alt="laptop">
+                                    <div class="rating-stars">
+                                        <!-- Жёлтые звёзды -->
+                                        <svg width="13" height="13" viewBox="0 0 24 24" fill="#E9A426" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M12 2L14.85 8.47L22 9.24L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.24L9.15 8.47L12 2Z" />
+                                        </svg>
+                                        <svg width="13" height="13" viewBox="0 0 24 24" fill="#E9A426" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M12 2L14.85 8.47L22 9.24L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.24L9.15 8.47L12 2Z" />
+                                        </svg>
+                                        <svg width="13" height="13" viewBox="0 0 24 24" fill="#E9A426" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M12 2L14.85 8.47L22 9.24L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.24L9.15 8.47L12 2Z" />
+                                        </svg>
+                                        <svg width="13" height="13" viewBox="0 0 24 24" fill="#E9A426" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M12 2L14.85 8.47L22 9.24L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.24L9.15 8.47L12 2Z" />
+                                        </svg>
+                            
+                                        <!-- Серая звезда -->
+                                        <svg width="13" height="13" viewBox="0 0 24 24" fill="#CACDD8" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M12 2L14.85 8.47L22 9.24L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.24L9.15 8.47L12 2Z" />
+                                        </svg>
+                                        <span class="card-reviews">Reviews (4)</span>
+                                        <p class="cars-text">EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...</p>
+                                        <p style="font-size: 14px;"><del>$499.00</del></p>
+                                        <p style="font-size: 18px;"> <b>$499.00</b></р>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-card">
+                                <div class="product-body">
+                                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none">
+                                        <circle cx="12" cy="12" r="12" fill="#28a745" /> <!-- Зелёный круг -->
+                                        <path d="M7 12l3 3 7-7" stroke="white" stroke-width="2" fill="none" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                    </svg>
+                                    <span style="font-size: 10px; color: #28a745; font-weight: bold;">In stock</span>
+                                    <img src="img/laptop3.png" alt="laptop">
+                                    <div class="rating-stars">
+                                        <!-- Жёлтые звёзды -->
+                                        <svg width="13" height="13" viewBox="0 0 24 24" fill="#E9A426" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M12 2L14.85 8.47L22 9.24L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.24L9.15 8.47L12 2Z" />
+                                        </svg>
+                                        <svg width="13" height="13" viewBox="0 0 24 24" fill="#E9A426" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M12 2L14.85 8.47L22 9.24L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.24L9.15 8.47L12 2Z" />
+                                        </svg>
+                                        <svg width="13" height="13" viewBox="0 0 24 24" fill="#E9A426" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M12 2L14.85 8.47L22 9.24L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.24L9.15 8.47L12 2Z" />
+                                        </svg>
+                                        <svg width="13" height="13" viewBox="0 0 24 24" fill="#E9A426" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M12 2L14.85 8.47L22 9.24L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.24L9.15 8.47L12 2Z" />
+                                        </svg>
+                            
+                                        <!-- Серая звезда -->
+                                        <svg width="13" height="13" viewBox="0 0 24 24" fill="#CACDD8" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M12 2L14.85 8.47L22 9.24L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.24L9.15 8.47L12 2Z" />
+                                        </svg>
+                                        <span class="card-reviews">Reviews (4)</span>
+                                        <p class="cars-text">EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...</p>
+                                        <p style="font-size: 14px;"><del>$499.00</del></p>
+                                        <p style="font-size: 18px;"> <b>$499.00</b></р>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-card">
+                                <div class="product-body">
+                                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none">
+                                        <circle cx="12" cy="12" r="12" fill="#28a745" /> <!-- Зелёный круг -->
+                                        <path d="M7 12l3 3 7-7" stroke="white" stroke-width="2" fill="none" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                    </svg>
+                                    <span style="font-size: 10px; color: #28a745; font-weight: bold;">In stock</span>
+                                    <img src="img/laptop4.png" alt="laptop">
+                                    <div class="rating-stars">
+                                        <!-- Жёлтые звёзды -->
+                                        <svg width="13" height="13" viewBox="0 0 24 24" fill="#E9A426" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M12 2L14.85 8.47L22 9.24L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.24L9.15 8.47L12 2Z" />
+                                        </svg>
+                                        <svg width="13" height="13" viewBox="0 0 24 24" fill="#E9A426" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M12 2L14.85 8.47L22 9.24L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.24L9.15 8.47L12 2Z" />
+                                        </svg>
+                                        <svg width="13" height="13" viewBox="0 0 24 24" fill="#E9A426" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M12 2L14.85 8.47L22 9.24L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.24L9.15 8.47L12 2Z" />
+                                        </svg>
+                                        <svg width="13" height="13" viewBox="0 0 24 24" fill="#E9A426" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M12 2L14.85 8.47L22 9.24L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.24L9.15 8.47L12 2Z" />
+                                        </svg>
+                            
+                                        <!-- Серая звезда -->
+                                        <svg width="13" height="13" viewBox="0 0 24 24" fill="#CACDD8" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M12 2L14.85 8.47L22 9.24L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.24L9.15 8.47L12 2Z" />
+                                        </svg>
+                                        <span class="card-reviews">Reviews (4)</span>
+                                        <p class="cars-text">EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...</p>
+                                        <p style="font-size: 14px;"><del>$499.00</del></p>
+                                        <p style="font-size: 18px;"> <b>$499.00</b></р>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-card">
+                                <div class="product-body">
+                                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none">
+                                        <circle cx="12" cy="12" r="12" fill="#28a745" /> <!-- Зелёный круг -->
+                                        <path d="M7 12l3 3 7-7" stroke="white" stroke-width="2" fill="none" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                    </svg>
+                                    <span style="font-size: 10px; color: #28a745; font-weight: bold;">In stock</span>
+                                    <img src="img/laptop5.png" alt="laptop">
+                                    <div class="rating-stars">
+                                        <!-- Жёлтые звёзды -->
+                                        <svg width="13" height="13" viewBox="0 0 24 24" fill="#E9A426" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M12 2L14.85 8.47L22 9.24L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.24L9.15 8.47L12 2Z" />
+                                        </svg>
+                                        <svg width="13" height="13" viewBox="0 0 24 24" fill="#E9A426" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M12 2L14.85 8.47L22 9.24L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.24L9.15 8.47L12 2Z" />
+                                        </svg>
+                                        <svg width="13" height="13" viewBox="0 0 24 24" fill="#E9A426" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M12 2L14.85 8.47L22 9.24L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.24L9.15 8.47L12 2Z" />
+                                        </svg>
+                                        <svg width="13" height="13" viewBox="0 0 24 24" fill="#E9A426" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M12 2L14.85 8.47L22 9.24L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.24L9.15 8.47L12 2Z" />
+                                        </svg>
+                            
+                                        <!-- Серая звезда -->
+                                        <svg width="13" height="13" viewBox="0 0 24 24" fill="#CACDD8" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M12 2L14.85 8.47L22 9.24L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.24L9.15 8.47L12 2Z" />
+                                        </svg>
+                                        <span class="card-reviews">Reviews (4)</span>
+                                        <p class="cars-text">EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...</p>
+                                        <p style="font-size: 14px;"><del>$499.00</del></p>
+                                        <p style="font-size: 18px;"> <b>$499.00</b></р>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-card">
+                                <div class="product-body">
+                                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none">
+                                        <circle cx="12" cy="12" r="12" fill="#28a745" /> <!-- Зелёный круг -->
+                                        <path d="M7 12l3 3 7-7" stroke="white" stroke-width="2" fill="none" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                    </svg>
+                                    <span style="font-size: 10px; color: #28a745; font-weight: bold;">In stock</span>
+                                    <img src="img/laptop1.png" alt="laptop">
+                                    <div class="rating-stars">
+                                        <!-- Жёлтые звёзды -->
+                                        <svg width="13" height="13" viewBox="0 0 24 24" fill="#E9A426" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M12 2L14.85 8.47L22 9.24L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.24L9.15 8.47L12 2Z" />
+                                        </svg>
+                                        <svg width="13" height="13" viewBox="0 0 24 24" fill="#E9A426" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M12 2L14.85 8.47L22 9.24L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.24L9.15 8.47L12 2Z" />
+                                        </svg>
+                                        <svg width="13" height="13" viewBox="0 0 24 24" fill="#E9A426" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M12 2L14.85 8.47L22 9.24L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.24L9.15 8.47L12 2Z" />
+                                        </svg>
+                                        <svg width="13" height="13" viewBox="0 0 24 24" fill="#E9A426" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M12 2L14.85 8.47L22 9.24L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.24L9.15 8.47L12 2Z" />
+                                        </svg>
+                            
+                                        <!-- Серая звезда -->
+                                        <svg width="13" height="13" viewBox="0 0 24 24" fill="#CACDD8" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M12 2L14.85 8.47L22 9.24L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.24L9.15 8.47L12 2Z" />
+                                        </svg>
+                                        <span class="card-reviews">Reviews (4)</span>
+                                        <p class="cars-text">EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...</p>
+                                        <p style="font-size: 14px;"><del>$499.00</del></p>
+                                        <p style="font-size: 18px;"> <b>$499.00</b></р>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-card">
+                                <div class="product-body">
+                                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none">
+                                        <circle cx="12" cy="12" r="12" fill="#28a745" /> <!-- Зелёный круг -->
+                                        <path d="M7 12l3 3 7-7" stroke="white" stroke-width="2" fill="none" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                    </svg>
+                                    <span style="font-size: 10px; color: #28a745; font-weight: bold;">In stock</span>
+                                    <img src="img/laptop2.png" alt="laptop">
+                                    <div class="rating-stars">
+                                        <!-- Жёлтые звёзды -->
+                                        <svg width="13" height="13" viewBox="0 0 24 24" fill="#E9A426" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M12 2L14.85 8.47L22 9.24L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.24L9.15 8.47L12 2Z" />
+                                        </svg>
+                                        <svg width="13" height="13" viewBox="0 0 24 24" fill="#E9A426" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M12 2L14.85 8.47L22 9.24L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.24L9.15 8.47L12 2Z" />
+                                        </svg>
+                                        <svg width="13" height="13" viewBox="0 0 24 24" fill="#E9A426" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M12 2L14.85 8.47L22 9.24L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.24L9.15 8.47L12 2Z" />
+                                        </svg>
+                                        <svg width="13" height="13" viewBox="0 0 24 24" fill="#E9A426" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M12 2L14.85 8.47L22 9.24L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.24L9.15 8.47L12 2Z" />
+                                        </svg>
+                            
+                                        <!-- Серая звезда -->
+                                        <svg width="13" height="13" viewBox="0 0 24 24" fill="#CACDD8" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M12 2L14.85 8.47L22 9.24L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.24L9.15 8.47L12 2Z" />
+                                        </svg>
+                                        <span class="card-reviews">Reviews (4)</span>
+                                        <p class="cars-text">EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...</p>
+                                        <p style="font-size: 14px;"><del>$499.00</del></p>
+                                        <p style="font-size: 18px;"> <b>$499.00</b></р>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-card">
+                                <div class="product-body">
+                                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none">
+                                        <circle cx="12" cy="12" r="12" fill="#28a745" /> <!-- Зелёный круг -->
+                                        <path d="M7 12l3 3 7-7" stroke="white" stroke-width="2" fill="none" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                    </svg>
+                                    <span style="font-size: 10px; color: #28a745; font-weight: bold;">In stock</span>
+                                    <img src="img/laptop3.png" alt="laptop">
+                                    <div class="rating-stars">
+                                        <!-- Жёлтые звёзды -->
+                                        <svg width="13" height="13" viewBox="0 0 24 24" fill="#E9A426" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M12 2L14.85 8.47L22 9.24L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.24L9.15 8.47L12 2Z" />
+                                        </svg>
+                                        <svg width="13" height="13" viewBox="0 0 24 24" fill="#E9A426" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M12 2L14.85 8.47L22 9.24L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.24L9.15 8.47L12 2Z" />
+                                        </svg>
+                                        <svg width="13" height="13" viewBox="0 0 24 24" fill="#E9A426" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M12 2L14.85 8.47L22 9.24L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.24L9.15 8.47L12 2Z" />
+                                        </svg>
+                                        <svg width="13" height="13" viewBox="0 0 24 24" fill="#E9A426" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M12 2L14.85 8.47L22 9.24L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.24L9.15 8.47L12 2Z" />
+                                        </svg>
+                            
+                                        <!-- Серая звезда -->
+                                        <svg width="13" height="13" viewBox="0 0 24 24" fill="#CACDD8" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M12 2L14.85 8.47L22 9.24L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.24L9.15 8.47L12 2Z" />
+                                        </svg>
+                                        <span class="card-reviews">Reviews (4)</span>
+                                        <p class="cars-text">EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...</p>
+                                        <p style="font-size: 14px;"><del>$499.00</del></p>
+                                        <p style="font-size: 18px;"> <b>$499.00</b></р>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-card">
+                                <div class="product-body">
+                                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none">
+                                        <circle cx="12" cy="12" r="12" fill="#28a745" /> <!-- Зелёный круг -->
+                                        <path d="M7 12l3 3 7-7" stroke="white" stroke-width="2" fill="none" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                    </svg>
+                                    <span style="font-size: 10px; color: #28a745; font-weight: bold;">In stock</span>
+                                    <img src="img/laptop4.png" alt="laptop">
+                                    <div class="rating-stars">
+                                        <!-- Жёлтые звёзды -->
+                                        <svg width="13" height="13" viewBox="0 0 24 24" fill="#E9A426" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M12 2L14.85 8.47L22 9.24L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.24L9.15 8.47L12 2Z" />
+                                        </svg>
+                                        <svg width="13" height="13" viewBox="0 0 24 24" fill="#E9A426" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M12 2L14.85 8.47L22 9.24L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.24L9.15 8.47L12 2Z" />
+                                        </svg>
+                                        <svg width="13" height="13" viewBox="0 0 24 24" fill="#E9A426" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M12 2L14.85 8.47L22 9.24L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.24L9.15 8.47L12 2Z" />
+                                        </svg>
+                                        <svg width="13" height="13" viewBox="0 0 24 24" fill="#E9A426" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M12 2L14.85 8.47L22 9.24L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.24L9.15 8.47L12 2Z" />
+                                        </svg>
+                            
+                                        <!-- Серая звезда -->
+                                        <svg width="13" height="13" viewBox="0 0 24 24" fill="#CACDD8" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M12 2L14.85 8.47L22 9.24L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.24L9.15 8.47L12 2Z" />
+                                        </svg>
+                                        <span class="card-reviews">Reviews (4)</span>
+                                        <p class="cars-text">EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...</p>
+                                        <p style="font-size: 14px;"><del>$499.00</del></p>
+                                        <p style="font-size: 18px;"> <b>$499.00</b></р>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-card">
+                                <div class="product-body">
+                                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none">
+                                        <circle cx="12" cy="12" r="12" fill="#28a745" /> <!-- Зелёный круг -->
+                                        <path d="M7 12l3 3 7-7" stroke="white" stroke-width="2" fill="none" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                    </svg>
+                                    <span style="font-size: 10px; color: #28a745; font-weight: bold;">In stock</span>
+                                    <img src="img/laptop5.png" alt="laptop">
+                                    <div class="rating-stars">
+                                        <!-- Жёлтые звёзды -->
+                                        <svg width="13" height="13" viewBox="0 0 24 24" fill="#E9A426" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M12 2L14.85 8.47L22 9.24L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.24L9.15 8.47L12 2Z" />
+                                        </svg>
+                                        <svg width="13" height="13" viewBox="0 0 24 24" fill="#E9A426" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M12 2L14.85 8.47L22 9.24L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.24L9.15 8.47L12 2Z" />
+                                        </svg>
+                                        <svg width="13" height="13" viewBox="0 0 24 24" fill="#E9A426" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M12 2L14.85 8.47L22 9.24L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.24L9.15 8.47L12 2Z" />
+                                        </svg>
+                                        <svg width="13" height="13" viewBox="0 0 24 24" fill="#E9A426" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M12 2L14.85 8.47L22 9.24L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.24L9.15 8.47L12 2Z" />
+                                        </svg>
+                            
+                                        <!-- Серая звезда -->
+                                        <svg width="13" height="13" viewBox="0 0 24 24" fill="#CACDD8" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M12 2L14.85 8.47L22 9.24L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.24L9.15 8.47L12 2Z" />
+                                        </svg>
+                                        <span class="card-reviews">Reviews (4)</span>
+                                        <p class="cars-text">EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...</p>
+                                        <p style="font-size: 14px;"><del>$499.00</del></p>
+                                        <p style="font-size: 18px;"> <b>$499.00</b></р>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-card">
+                                <div class="product-body">
+                                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none">
+                                        <circle cx="12" cy="12" r="12" fill="#28a745" /> <!-- Зелёный круг -->
+                                        <path d="M7 12l3 3 7-7" stroke="white" stroke-width="2" fill="none" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                    </svg>
+                                    <span style="font-size: 10px; color: #28a745; font-weight: bold;">In stock</span>
+                                    <img src="img/laptop1.png" alt="laptop">
+                                    <div class="rating-stars">
+                                        <!-- Жёлтые звёзды -->
+                                        <svg width="13" height="13" viewBox="0 0 24 24" fill="#E9A426" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M12 2L14.85 8.47L22 9.24L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.24L9.15 8.47L12 2Z" />
+                                        </svg>
+                                        <svg width="13" height="13" viewBox="0 0 24 24" fill="#E9A426" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M12 2L14.85 8.47L22 9.24L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.24L9.15 8.47L12 2Z" />
+                                        </svg>
+                                        <svg width="13" height="13" viewBox="0 0 24 24" fill="#E9A426" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M12 2L14.85 8.47L22 9.24L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.24L9.15 8.47L12 2Z" />
+                                        </svg>
+                                        <svg width="13" height="13" viewBox="0 0 24 24" fill="#E9A426" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M12 2L14.85 8.47L22 9.24L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.24L9.15 8.47L12 2Z" />
+                                        </svg>
+                            
+                                        <!-- Серая звезда -->
+                                        <svg width="13" height="13" viewBox="0 0 24 24" fill="#CACDD8" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M12 2L14.85 8.47L22 9.24L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.24L9.15 8.47L12 2Z" />
+                                        </svg>
+                                        <span class="card-reviews">Reviews (4)</span>
+                                        <p class="cars-text">EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...</p>
+                                        <p style="font-size: 14px;"><del>$499.00</del></p>
+                                        <p style="font-size: 18px;"> <b>$499.00</b></р>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-card">
+                                <div class="product-body">
+                                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none">
+                                        <circle cx="12" cy="12" r="12" fill="#28a745" /> <!-- Зелёный круг -->
+                                        <path d="M7 12l3 3 7-7" stroke="white" stroke-width="2" fill="none" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                    </svg>
+                                    <span style="font-size: 10px; color: #28a745; font-weight: bold;">In stock</span>
+                                    <img src="img/laptop2.png" alt="laptop">
+                                    <div class="rating-stars">
+                                        <!-- Жёлтые звёзды -->
+                                        <svg width="13" height="13" viewBox="0 0 24 24" fill="#E9A426" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M12 2L14.85 8.47L22 9.24L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.24L9.15 8.47L12 2Z" />
+                                        </svg>
+                                        <svg width="13" height="13" viewBox="0 0 24 24" fill="#E9A426" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M12 2L14.85 8.47L22 9.24L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.24L9.15 8.47L12 2Z" />
+                                        </svg>
+                                        <svg width="13" height="13" viewBox="0 0 24 24" fill="#E9A426" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M12 2L14.85 8.47L22 9.24L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.24L9.15 8.47L12 2Z" />
+                                        </svg>
+                                        <svg width="13" height="13" viewBox="0 0 24 24" fill="#E9A426" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M12 2L14.85 8.47L22 9.24L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.24L9.15 8.47L12 2Z" />
+                                        </svg>
+                            
+                                        <!-- Серая звезда -->
+                                        <svg width="13" height="13" viewBox="0 0 24 24" fill="#CACDD8" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M12 2L14.85 8.47L22 9.24L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.24L9.15 8.47L12 2Z" />
+                                        </svg>
+                                        <span class="card-reviews">Reviews (4)</span>
+                                        <p class="cars-text">EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...</p>
+                                        <p style="font-size: 14px;"><del>$499.00</del></p>
+                                        <p style="font-size: 18px;"> <b>$499.00</b></р>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-card">
+                                <div class="product-body">
+                                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none">
+                                        <circle cx="12" cy="12" r="12" fill="#28a745" /> <!-- Зелёный круг -->
+                                        <path d="M7 12l3 3 7-7" stroke="white" stroke-width="2" fill="none" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                    </svg>
+                                    <span style="font-size: 10px; color: #28a745; font-weight: bold;">In stock</span>
+                                    <img src="img/laptop3.png" alt="laptop">
+                                    <div class="rating-stars">
+                                        <!-- Жёлтые звёзды -->
+                                        <svg width="13" height="13" viewBox="0 0 24 24" fill="#E9A426" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M12 2L14.85 8.47L22 9.24L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.24L9.15 8.47L12 2Z" />
+                                        </svg>
+                                        <svg width="13" height="13" viewBox="0 0 24 24" fill="#E9A426" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M12 2L14.85 8.47L22 9.24L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.24L9.15 8.47L12 2Z" />
+                                        </svg>
+                                        <svg width="13" height="13" viewBox="0 0 24 24" fill="#E9A426" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M12 2L14.85 8.47L22 9.24L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.24L9.15 8.47L12 2Z" />
+                                        </svg>
+                                        <svg width="13" height="13" viewBox="0 0 24 24" fill="#E9A426" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M12 2L14.85 8.47L22 9.24L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.24L9.15 8.47L12 2Z" />
+                                        </svg>
+                            
+                                        <!-- Серая звезда -->
+                                        <svg width="13" height="13" viewBox="0 0 24 24" fill="#CACDD8" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M12 2L14.85 8.47L22 9.24L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.24L9.15 8.47L12 2Z" />
+                                        </svg>
+                                        <span class="card-reviews">Reviews (4)</span>
+                                        <p class="cars-text">EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...</p>
+                                        <p style="font-size: 14px;"><del>$499.00</del></p>
+                                        <p style="font-size: 18px;"> <b>$499.00</b></р>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-card">
+                                <div class="product-body">
+                                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none">
+                                        <circle cx="12" cy="12" r="12" fill="#28a745" /> <!-- Зелёный круг -->
+                                        <path d="M7 12l3 3 7-7" stroke="white" stroke-width="2" fill="none" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                    </svg>
+                                    <span style="font-size: 10px; color: #28a745; font-weight: bold;">In stock</span>
+                                    <img src="img/laptop4.png" alt="laptop">
+                                    <div class="rating-stars">
+                                        <!-- Жёлтые звёзды -->
+                                        <svg width="13" height="13" viewBox="0 0 24 24" fill="#E9A426" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M12 2L14.85 8.47L22 9.24L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.24L9.15 8.47L12 2Z" />
+                                        </svg>
+                                        <svg width="13" height="13" viewBox="0 0 24 24" fill="#E9A426" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M12 2L14.85 8.47L22 9.24L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.24L9.15 8.47L12 2Z" />
+                                        </svg>
+                                        <svg width="13" height="13" viewBox="0 0 24 24" fill="#E9A426" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M12 2L14.85 8.47L22 9.24L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.24L9.15 8.47L12 2Z" />
+                                        </svg>
+                                        <svg width="13" height="13" viewBox="0 0 24 24" fill="#E9A426" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M12 2L14.85 8.47L22 9.24L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.24L9.15 8.47L12 2Z" />
+                                        </svg>
+                            
+                                        <!-- Серая звезда -->
+                                        <svg width="13" height="13" viewBox="0 0 24 24" fill="#CACDD8" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M12 2L14.85 8.47L22 9.24L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.24L9.15 8.47L12 2Z" />
+                                        </svg>
+                                        <span class="card-reviews">Reviews (4)</span>
+                                        <p class="cars-text">EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...</p>
+                                        <p style="font-size: 14px;"><del>$499.00</del></p>
+                                        <p style="font-size: 18px;"> <b>$499.00</b></р>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-card">
+                                <div class="product-body">
+                                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none">
+                                        <circle cx="12" cy="12" r="12" fill="#28a745" /> <!-- Зелёный круг -->
+                                        <path d="M7 12l3 3 7-7" stroke="white" stroke-width="2" fill="none" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                    </svg>
+                                    <span style="font-size: 10px; color: #28a745; font-weight: bold;">In stock</span>
+                                    <img src="img/laptop5.png" alt="laptop">
+                                    <div class="rating-stars">
+                                        <!-- Жёлтые звёзды -->
+                                        <svg width="13" height="13" viewBox="0 0 24 24" fill="#E9A426" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M12 2L14.85 8.47L22 9.24L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.24L9.15 8.47L12 2Z" />
+                                        </svg>
+                                        <svg width="13" height="13" viewBox="0 0 24 24" fill="#E9A426" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M12 2L14.85 8.47L22 9.24L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.24L9.15 8.47L12 2Z" />
+                                        </svg>
+                                        <svg width="13" height="13" viewBox="0 0 24 24" fill="#E9A426" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M12 2L14.85 8.47L22 9.24L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.24L9.15 8.47L12 2Z" />
+                                        </svg>
+                                        <svg width="13" height="13" viewBox="0 0 24 24" fill="#E9A426" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M12 2L14.85 8.47L22 9.24L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.24L9.15 8.47L12 2Z" />
+                                        </svg>
+                            
+                                        <!-- Серая звезда -->
+                                        <svg width="13" height="13" viewBox="0 0 24 24" fill="#CACDD8" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M12 2L14.85 8.47L22 9.24L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.24L9.15 8.47L12 2Z" />
+                                        </svg>
+                                        <span class="card-reviews">Reviews (4)</span>
+                                        <p class="cars-text">EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...</p>
+                                        <p style="font-size: 14px;"><del>$499.00</del></p>
+                                        <p style="font-size: 18px;"> <b>$499.00</b></р>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-card">
+                                <div class="product-body">
+                                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none">
+                                        <circle cx="12" cy="12" r="12" fill="#28a745" /> <!-- Зелёный круг -->
+                                        <path d="M7 12l3 3 7-7" stroke="white" stroke-width="2" fill="none" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                    </svg>
+                                    <span style="font-size: 10px; color: #28a745; font-weight: bold;">In stock</span>
+                                    <img src="img/laptop1.png" alt="laptop">
+                                    <div class="rating-stars">
+                                        <!-- Жёлтые звёзды -->
+                                        <svg width="13" height="13" viewBox="0 0 24 24" fill="#E9A426" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M12 2L14.85 8.47L22 9.24L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.24L9.15 8.47L12 2Z" />
+                                        </svg>
+                                        <svg width="13" height="13" viewBox="0 0 24 24" fill="#E9A426" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M12 2L14.85 8.47L22 9.24L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.24L9.15 8.47L12 2Z" />
+                                        </svg>
+                                        <svg width="13" height="13" viewBox="0 0 24 24" fill="#E9A426" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M12 2L14.85 8.47L22 9.24L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.24L9.15 8.47L12 2Z" />
+                                        </svg>
+                                        <svg width="13" height="13" viewBox="0 0 24 24" fill="#E9A426" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M12 2L14.85 8.47L22 9.24L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.24L9.15 8.47L12 2Z" />
+                                        </svg>
+                            
+                                        <!-- Серая звезда -->
+                                        <svg width="13" height="13" viewBox="0 0 24 24" fill="#CACDD8" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M12 2L14.85 8.47L22 9.24L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.24L9.15 8.47L12 2Z" />
+                                        </svg>
+                                        <span class="card-reviews">Reviews (4)</span>
+                                        <p class="cars-text">EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...</p>
+                                        <p style="font-size: 14px;"><del>$499.00</del></p>
+                                        <p style="font-size: 18px;"> <b>$499.00</b></р>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-card">
+                                <div class="product-body">
+                                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none">
+                                        <circle cx="12" cy="12" r="12" fill="#28a745" /> <!-- Зелёный круг -->
+                                        <path d="M7 12l3 3 7-7" stroke="white" stroke-width="2" fill="none" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                    </svg>
+                                    <span style="font-size: 10px; color: #28a745; font-weight: bold;">In stock</span>
+                                    <img src="img/laptop2.png" alt="laptop">
+                                    <div class="rating-stars">
+                                        <!-- Жёлтые звёзды -->
+                                        <svg width="13" height="13" viewBox="0 0 24 24" fill="#E9A426" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M12 2L14.85 8.47L22 9.24L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.24L9.15 8.47L12 2Z" />
+                                        </svg>
+                                        <svg width="13" height="13" viewBox="0 0 24 24" fill="#E9A426" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M12 2L14.85 8.47L22 9.24L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.24L9.15 8.47L12 2Z" />
+                                        </svg>
+                                        <svg width="13" height="13" viewBox="0 0 24 24" fill="#E9A426" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M12 2L14.85 8.47L22 9.24L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.24L9.15 8.47L12 2Z" />
+                                        </svg>
+                                        <svg width="13" height="13" viewBox="0 0 24 24" fill="#E9A426" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M12 2L14.85 8.47L22 9.24L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.24L9.15 8.47L12 2Z" />
+                                        </svg>
+                            
+                                        <!-- Серая звезда -->
+                                        <svg width="13" height="13" viewBox="0 0 24 24" fill="#CACDD8" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M12 2L14.85 8.47L22 9.24L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.24L9.15 8.47L12 2Z" />
+                                        </svg>
+                                        <span class="card-reviews">Reviews (4)</span>
+                                        <p class="cars-text">EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...</p>
+                                        <p style="font-size: 14px;"><del>$499.00</del></p>
+                                        <p style="font-size: 18px;"> <b>$499.00</b></р>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-card">
+                                <div class="product-body">
+                                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none">
+                                        <circle cx="12" cy="12" r="12" fill="#28a745" /> <!-- Зелёный круг -->
+                                        <path d="M7 12l3 3 7-7" stroke="white" stroke-width="2" fill="none" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                    </svg>
+                                    <span style="font-size: 10px; color: #28a745; font-weight: bold;">In stock</span>
+                                    <img src="img/laptop3.png" alt="laptop">
+                                    <div class="rating-stars">
+                                        <!-- Жёлтые звёзды -->
+                                        <svg width="13" height="13" viewBox="0 0 24 24" fill="#E9A426" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M12 2L14.85 8.47L22 9.24L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.24L9.15 8.47L12 2Z" />
+                                        </svg>
+                                        <svg width="13" height="13" viewBox="0 0 24 24" fill="#E9A426" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M12 2L14.85 8.47L22 9.24L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.24L9.15 8.47L12 2Z" />
+                                        </svg>
+                                        <svg width="13" height="13" viewBox="0 0 24 24" fill="#E9A426" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M12 2L14.85 8.47L22 9.24L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.24L9.15 8.47L12 2Z" />
+                                        </svg>
+                                        <svg width="13" height="13" viewBox="0 0 24 24" fill="#E9A426" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M12 2L14.85 8.47L22 9.24L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.24L9.15 8.47L12 2Z" />
+                                        </svg>
+                            
+                                        <!-- Серая звезда -->
+                                        <svg width="13" height="13" viewBox="0 0 24 24" fill="#CACDD8" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M12 2L14.85 8.47L22 9.24L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.24L9.15 8.47L12 2Z" />
+                                        </svg>
+                                        <span class="card-reviews">Reviews (4)</span>
+                                        <p class="cars-text">EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...</p>
+                                        <p style="font-size: 14px;"><del>$499.00</del></p>
+                                        <p style="font-size: 18px;"> <b>$499.00</b></р>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-card">
+                                <div class="product-body">
+                                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none">
+                                        <circle cx="12" cy="12" r="12" fill="#28a745" /> <!-- Зелёный круг -->
+                                        <path d="M7 12l3 3 7-7" stroke="white" stroke-width="2" fill="none" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                    </svg>
+                                    <span style="font-size: 10px; color: #28a745; font-weight: bold;">In stock</span>
+                                    <img src="img/laptop4.png" alt="laptop">
+                                    <div class="rating-stars">
+                                        <!-- Жёлтые звёзды -->
+                                        <svg width="13" height="13" viewBox="0 0 24 24" fill="#E9A426" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M12 2L14.85 8.47L22 9.24L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.24L9.15 8.47L12 2Z" />
+                                        </svg>
+                                        <svg width="13" height="13" viewBox="0 0 24 24" fill="#E9A426" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M12 2L14.85 8.47L22 9.24L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.24L9.15 8.47L12 2Z" />
+                                        </svg>
+                                        <svg width="13" height="13" viewBox="0 0 24 24" fill="#E9A426" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M12 2L14.85 8.47L22 9.24L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.24L9.15 8.47L12 2Z" />
+                                        </svg>
+                                        <svg width="13" height="13" viewBox="0 0 24 24" fill="#E9A426" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M12 2L14.85 8.47L22 9.24L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.24L9.15 8.47L12 2Z" />
+                                        </svg>
+                            
+                                        <!-- Серая звезда -->
+                                        <svg width="13" height="13" viewBox="0 0 24 24" fill="#CACDD8" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M12 2L14.85 8.47L22 9.24L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.24L9.15 8.47L12 2Z" />
+                                        </svg>
+                                        <span class="card-reviews">Reviews (4)</span>
+                                        <p class="cars-text">EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...</p>
+                                        <p style="font-size: 14px;"><del>$499.00</del></p>
+                                        <p style="font-size: 18px;"> <b>$499.00</b></р>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-card">
+                                <div class="product-body">
+                                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none">
+                                        <circle cx="12" cy="12" r="12" fill="#28a745" /> <!-- Зелёный круг -->
+                                        <path d="M7 12l3 3 7-7" stroke="white" stroke-width="2" fill="none" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                    </svg>
+                                    <span style="font-size: 10px; color: #28a745; font-weight: bold;">In stock</span>
+                                    <img src="img/laptop5.png" alt="laptop">
+                                    <div class="rating-stars">
+                                        <!-- Жёлтые звёзды -->
+                                        <svg width="13" height="13" viewBox="0 0 24 24" fill="#E9A426" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M12 2L14.85 8.47L22 9.24L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.24L9.15 8.47L12 2Z" />
+                                        </svg>
+                                        <svg width="13" height="13" viewBox="0 0 24 24" fill="#E9A426" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M12 2L14.85 8.47L22 9.24L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.24L9.15 8.47L12 2Z" />
+                                        </svg>
+                                        <svg width="13" height="13" viewBox="0 0 24 24" fill="#E9A426" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M12 2L14.85 8.47L22 9.24L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.24L9.15 8.47L12 2Z" />
+                                        </svg>
+                                        <svg width="13" height="13" viewBox="0 0 24 24" fill="#E9A426" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M12 2L14.85 8.47L22 9.24L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.24L9.15 8.47L12 2Z" />
+                                        </svg>
+                            
+                                        <!-- Серая звезда -->
+                                        <svg width="13" height="13" viewBox="0 0 24 24" fill="#CACDD8" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M12 2L14.85 8.47L22 9.24L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.24L9.15 8.47L12 2Z" />
+                                        </svg>
+                                        <span class="card-reviews">Reviews (4)</span>
+                                        <p class="cars-text">EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...</p>
+                                        <p style="font-size: 14px;"><del>$499.00</del></p>
+                                        <p style="font-size: 18px;"> <b>$499.00</b></р>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="listView" class="view" >
+                        <div class="product-list-item">
+                            <div class="product-list-body">
+                                <!-- Вся строка карточки -->
+                                <div class="product-list-content">
+
+                                    <!-- Фото и звёзды -->
+                                    <div class="product-left">
+                                        <img src="img/laptop1.png" alt="laptop">
+                                        <div class="rating-stars">
+                                            <!-- Жёлтые звёзды -->
+                                            <svg width="13" height="13" viewBox="0 0 24 24" fill="#E9A426" xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M12 2L14.85 8.47L22 9.24L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.24L9.15 8.47L12 2Z" />
+                                            </svg>
+                                            <svg width="13" height="13" viewBox="0 0 24 24" fill="#E9A426" xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M12 2L14.85 8.47L22 9.24L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.24L9.15 8.47L12 2Z" />
+                                            </svg>
+                                            <svg width="13" height="13" viewBox="0 0 24 24" fill="#E9A426" xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M12 2L14.85 8.47L22 9.24L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.24L9.15 8.47L12 2Z" />
+                                            </svg>
+                                            <svg width="13" height="13" viewBox="0 0 24 24" fill="#E9A426" xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M12 2L14.85 8.47L22 9.24L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.24L9.15 8.47L12 2Z" />
+                                            </svg>
+                                            <!-- Серая звезда -->
+                                            <svg width="13" height="13" viewBox="0 0 24 24" fill="#CACDD8" xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M12 2L14.85 8.47L22 9.24L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.24L9.15 8.47L12 2Z" />
+                                            </svg>
+                                            <span class="card-reviews">Reviews (4)</span>
+                                        </div>
+                                    </div>
+
+                                    <!-- Центр: SKU и заголовок -->
+                                    <div class="product-center">
+                                        <p class="product-sku">SKU D5515AI</p>
+                                        <p class="product-title">
+                                            MSI CREATOR i7 A10SF5-240AU | 17 UHD 4K HDR Thin Bezel<br>
+                                            Intel 10th Gen i7 10875H | RTX 2070 SUPER MAX Q
+                                        </p>
+                                        <p class="product-subtitle">16GB RAM | 1TB SSD NVME | Windows 10 PRO Laptop</p>
+                                    </div>
+
+                                    <!-- Справа: 3 характеристики + цена + кнопка -->
+                                    <div class="product-right">
+                                        <div class="in-stock-icon">
+                                            <svg width="12" height="12" viewBox="0 0 24 24" fill="none">
+                                                <circle cx="12" cy="12" r="12" fill="#28a745" />
+                                                <path d="M7 12l3 3 7-7" stroke="white" stroke-width="2" fill="none"
+                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+                                            <span class="in-stock-text">In stock</span>
+                                        </div>
+
+                                        <div class="product-specs">
+                                            <div class="spec"><strong>CPU</strong><br>N/A</div>
+                                            <div class="spec"><strong>Featured</strong><br>N/A</div>
+                                            <div class="spec"><strong>I/O Ports</strong><br>N/A</div>
+                                        </div>
+
+                                        <div class="price-box">
+                                            <p class="price-old">$499.00</p>
+                                            <p class="price-new">$499.00</p>
+                                        </div>
+
+                                        <button class="add-to-cart">Add to Cart</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-list-item">
+                            <div class="product-list-body">
+                                <!-- Вся строка карточки -->
+                                <div class="product-list-content">
+
+                                    <!-- Фото и звёзды -->
+                                    <div class="product-left">
+                                        <img src="img/laptop1.png" alt="laptop">
+                                        <div class="rating-stars">
+                                            <!-- Жёлтые звёзды -->
+                                            <svg width="13" height="13" viewBox="0 0 24 24" fill="#E9A426" xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M12 2L14.85 8.47L22 9.24L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.24L9.15 8.47L12 2Z" />
+                                            </svg>
+                                            <svg width="13" height="13" viewBox="0 0 24 24" fill="#E9A426" xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M12 2L14.85 8.47L22 9.24L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.24L9.15 8.47L12 2Z" />
+                                            </svg>
+                                            <svg width="13" height="13" viewBox="0 0 24 24" fill="#E9A426" xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M12 2L14.85 8.47L22 9.24L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.24L9.15 8.47L12 2Z" />
+                                            </svg>
+                                            <svg width="13" height="13" viewBox="0 0 24 24" fill="#E9A426" xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M12 2L14.85 8.47L22 9.24L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.24L9.15 8.47L12 2Z" />
+                                            </svg>
+                                            <!-- Серая звезда -->
+                                            <svg width="13" height="13" viewBox="0 0 24 24" fill="#CACDD8" xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M12 2L14.85 8.47L22 9.24L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.24L9.15 8.47L12 2Z" />
+                                            </svg>
+                                            <span class="card-reviews">Reviews (4)</span>
+                                        </div>
+                                    </div>
+
+                                    <!-- Центр: SKU и заголовок -->
+                                    <div class="product-center">
+                                        <p class="product-sku">SKU D5515AI</p>
+                                        <p class="product-title">
+                                            MSI CREATOR i7 A10SF5-240AU | 17 UHD 4K HDR Thin Bezel<br>
+                                            Intel 10th Gen i7 10875H | RTX 2070 SUPER MAX Q
+                                        </p>
+                                        <p class="product-subtitle">16GB RAM | 1TB SSD NVME | Windows 10 PRO Laptop</p>
+                                    </div>
+
+                                    <!-- Справа: 3 характеристики + цена + кнопка -->
+                                    <div class="product-right">
+                                        <div class="in-stock-icon">
+                                            <svg width="12" height="12" viewBox="0 0 24 24" fill="none">
+                                                <circle cx="12" cy="12" r="12" fill="#28a745" />
+                                                <path d="M7 12l3 3 7-7" stroke="white" stroke-width="2" fill="none"
+                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+                                            <span class="in-stock-text">In stock</span>
+                                        </div>
+
+                                        <div class="product-specs">
+                                            <div class="spec"><strong>CPU</strong><br>N/A</div>
+                                            <div class="spec"><strong>Featured</strong><br>N/A</div>
+                                            <div class="spec"><strong>I/O Ports</strong><br>N/A</div>
+                                        </div>
+
+                                        <div class="price-box">
+                                            <p class="price-old">$499.00</p>
+                                            <p class="price-new">$499.00</p>
+                                        </div>
+
+                                        <button class="add-to-cart">Add to Cart</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-list-item">
+                            <div class="product-list-body">
+                                <!-- Вся строка карточки -->
+                                <div class="product-list-content">
+
+                                    <!-- Фото и звёзды -->
+                                    <div class="product-left">
+                                        <img src="img/laptop1.png" alt="laptop">
+                                        <div class="rating-stars">
+                                            <!-- Жёлтые звёзды -->
+                                            <svg width="13" height="13" viewBox="0 0 24 24" fill="#E9A426" xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M12 2L14.85 8.47L22 9.24L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.24L9.15 8.47L12 2Z" />
+                                            </svg>
+                                            <svg width="13" height="13" viewBox="0 0 24 24" fill="#E9A426" xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M12 2L14.85 8.47L22 9.24L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.24L9.15 8.47L12 2Z" />
+                                            </svg>
+                                            <svg width="13" height="13" viewBox="0 0 24 24" fill="#E9A426" xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M12 2L14.85 8.47L22 9.24L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.24L9.15 8.47L12 2Z" />
+                                            </svg>
+                                            <svg width="13" height="13" viewBox="0 0 24 24" fill="#E9A426" xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M12 2L14.85 8.47L22 9.24L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.24L9.15 8.47L12 2Z" />
+                                            </svg>
+                                            <!-- Серая звезда -->
+                                            <svg width="13" height="13" viewBox="0 0 24 24" fill="#CACDD8" xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M12 2L14.85 8.47L22 9.24L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.24L9.15 8.47L12 2Z" />
+                                            </svg>
+                                            <span class="card-reviews">Reviews (4)</span>
+                                        </div>
+                                    </div>
+
+                                    <!-- Центр: SKU и заголовок -->
+                                    <div class="product-center">
+                                        <p class="product-sku">SKU D5515AI</p>
+                                        <p class="product-title">
+                                            MSI CREATOR i7 A10SF5-240AU | 17 UHD 4K HDR Thin Bezel<br>
+                                            Intel 10th Gen i7 10875H | RTX 2070 SUPER MAX Q
+                                        </p>
+                                        <p class="product-subtitle">16GB RAM | 1TB SSD NVME | Windows 10 PRO Laptop</p>
+                                    </div>
+
+                                    <!-- Справа: 3 характеристики + цена + кнопка -->
+                                    <div class="product-right">
+                                        <div class="in-stock-icon">
+                                            <svg width="12" height="12" viewBox="0 0 24 24" fill="none">
+                                                <circle cx="12" cy="12" r="12" fill="#28a745" />
+                                                <path d="M7 12l3 3 7-7" stroke="white" stroke-width="2" fill="none"
+                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+                                            <span class="in-stock-text">In stock</span>
+                                        </div>
+
+                                        <div class="product-specs">
+                                            <div class="spec"><strong>CPU</strong><br>N/A</div>
+                                            <div class="spec"><strong>Featured</strong><br>N/A</div>
+                                            <div class="spec"><strong>I/O Ports</strong><br>N/A</div>
+                                        </div>
+
+                                        <div class="price-box">
+                                            <p class="price-old">$499.00</p>
+                                            <p class="price-new">$499.00</p>
+                                        </div>
+
+                                        <button class="add-to-cart">Add to Cart</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-list-item">
+                            <div class="product-list-body">
+                                <!-- Вся строка карточки -->
+                                <div class="product-list-content">
+
+                                    <!-- Фото и звёзды -->
+                                    <div class="product-left">
+                                        <img src="img/laptop1.png" alt="laptop">
+                                        <div class="rating-stars">
+                                            <!-- Жёлтые звёзды -->
+                                            <svg width="13" height="13" viewBox="0 0 24 24" fill="#E9A426" xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M12 2L14.85 8.47L22 9.24L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.24L9.15 8.47L12 2Z" />
+                                            </svg>
+                                            <svg width="13" height="13" viewBox="0 0 24 24" fill="#E9A426" xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M12 2L14.85 8.47L22 9.24L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.24L9.15 8.47L12 2Z" />
+                                            </svg>
+                                            <svg width="13" height="13" viewBox="0 0 24 24" fill="#E9A426" xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M12 2L14.85 8.47L22 9.24L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.24L9.15 8.47L12 2Z" />
+                                            </svg>
+                                            <svg width="13" height="13" viewBox="0 0 24 24" fill="#E9A426" xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M12 2L14.85 8.47L22 9.24L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.24L9.15 8.47L12 2Z" />
+                                            </svg>
+                                            <!-- Серая звезда -->
+                                            <svg width="13" height="13" viewBox="0 0 24 24" fill="#CACDD8" xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M12 2L14.85 8.47L22 9.24L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.24L9.15 8.47L12 2Z" />
+                                            </svg>
+                                            <span class="card-reviews">Reviews (4)</span>
+                                        </div>
+                                    </div>
+
+                                    <!-- Центр: SKU и заголовок -->
+                                    <div class="product-center">
+                                        <p class="product-sku">SKU D5515AI</p>
+                                        <p class="product-title">
+                                            MSI CREATOR i7 A10SF5-240AU | 17 UHD 4K HDR Thin Bezel<br>
+                                            Intel 10th Gen i7 10875H | RTX 2070 SUPER MAX Q
+                                        </p>
+                                        <p class="product-subtitle">16GB RAM | 1TB SSD NVME | Windows 10 PRO Laptop</p>
+                                    </div>
+
+                                    <!-- Справа: 3 характеристики + цена + кнопка -->
+                                    <div class="product-right">
+                                        <div class="in-stock-icon">
+                                            <svg width="12" height="12" viewBox="0 0 24 24" fill="none">
+                                                <circle cx="12" cy="12" r="12" fill="#28a745" />
+                                                <path d="M7 12l3 3 7-7" stroke="white" stroke-width="2" fill="none"
+                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+                                            <span class="in-stock-text">In stock</span>
+                                        </div>
+
+                                        <div class="product-specs">
+                                            <div class="spec"><strong>CPU</strong><br>N/A</div>
+                                            <div class="spec"><strong>Featured</strong><br>N/A</div>
+                                            <div class="spec"><strong>I/O Ports</strong><br>N/A</div>
+                                        </div>
+
+                                        <div class="price-box">
+                                            <p class="price-old">$499.00</p>
+                                            <p class="price-new">$499.00</p>
+                                        </div>
+
+                                        <button class="add-to-cart">Add to Cart</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="page-navigation">
+                        <div class="page-navigation-body">
+                            <span class="nav-button back-button">
+                                <svg class="submenu-arrow-left" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 320 512" fill="black">
+                                    <path d="M143 352.3l-136.5-136c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0L160 302.1l119.6-119.6c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9L177 352.3c-9.4 9.4-24.6 9.4-34 0z"/>
+                                </svg>
+                            </span>
+                            <span class="page-number">1</span>
+                            <span class="page-number">2</span>
+                            <span class="page-number">3</span>
+                            <span class="dots">...</span>
+                            <span class="page-number">10</span>
+                            <span class="nav-button forward-button">
+                                <svg class="submenu-arrow-right" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 320 512" fill="black">
+                                    <path d="M143 352.3l-136.5-136c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0L160 302.1l119.6-119.6c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9L177 352.3c-9.4 9.4-24.6 9.4-34 0z"/>
+                                </svg>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="page-more">
+                        <div class="page-text">
+                            <p>
+                                MSI has unveiled the Prestige Series line of business-class and gaming notebooks. Tuned for color accuracy, the Prestige Series also leverages True Color Technology, which allows users to adjust the display profile to best fit their computing needs. <br><br>
+                                There are six different screen profiles, which are tuned for gaming, reducing eye fatigue, sRGB color accuracy, increasing clarity for words and lines, reducing harmful blue light, and optimizing contrast for watching movies. <br>
+                                Given the various display profiles and discrete graphics chip, the Prestige Series notebooks can be used for various design work as well as for office tasks given that the screen can be adjusted for better clarity, color accuracy, or for eye strain reduction. Users working with video or 3D rendering will appreciate the "movie mode" for which contrast is increased. <br><br>
+                                Home users or students can benefit from the "anti-blue" and the "office mode" options, both of which are designed to reduce eye strain. This is helpful when working on the computer for extended periods of time. Additionally, in their down time, students can also use the "gamer mode" to increase the screen brightness. <br>
+                            </p>
+                        </div>
+                        <div class="more-button"><button>More</button></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="pre-footer">
+        <div class="pre-footer-container">
+            <div class="pre-footer-row">
+                <div class="pre-footer-body">
+                    <div class="features">
+                        <div class="feature-item">
+                            <div class="icon"><i class="fas fa-headphones-alt"></i></div>
+                            <h4><b>Product Support</b></h4><br>
+                            <p class="feature-text">Up to 3 years on-site warranty <br>available for your peace of mind.</p>
+                        </div>
+                        <div class="feature-item">
+                            <div class="icon"><i class="fas fa-user-circle"></i></div>
+                            <h4><b>Personal Account</b></h4><br>
+                            <p class="feature-text">With big discounts, free delivery and <br> a dedicated support specialist.</p>
+                        </div>
+                        <div class="feature-item">
+                            <div class="icon"><i class="fas fa-tags"></i></div>
+                            <h4><b>Amazing Savings</b></h4><br>
+                            <p class="feature-text">Up to 70% off new Products, you can <br> be sure of the best price.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- Footer -->
+    <footer class="footer" id="contact">
+      <div class="container">
+          <div class="footer-content">
+              <div class="footer-section">
+                  <h3>About Us</h3>
+                  <p>We provide the latest technology at the best prices with excellent customer service.</p>
+                  <div class="social-links">
+                      <a href="#"><i class="fab fa-facebook"></i></a>
+                      <a href="#"><i class="fab fa-twitter"></i></a>
+                      <a href="#"><i class="fab fa-instagram"></i></a>
+                      <a href="#"><i class="fab fa-linkedin"></i></a>
+                  </div>
+              </div>
+              
+              <div class="footer-section">
+                  <h3>Quick Links</h3>
+                  <ul>
+                      <li><a href="#home">Home</a></li>
+                      <li><a href="#products">Products</a></li>
+                      <li><a href="#about">About</a></li>
+                      <li><a href="#contact">Contact</a></li>
+                  </ul>
+              </div>
+              
+              <div class="footer-section">
+                  <h3>Customer Service</h3>
+                  <ul>
+                      <li><a href="#">Shipping Info</a></li>
+                      <li><a href="#">Returns</a></li>
+                      <li><a href="#">FAQ</a></li>
+                      <li><a href="#">Support</a></li>
+                  </ul>
+              </div>
+              
+              <div class="footer-section">
+                  <h3>Contact Info</h3>
+                  <div class="contact-info">
+                      <p><i class="fas fa-envelope"></i> info@techstore.com</p>
+                      <p><i class="fas fa-phone"></i> (555) 123-4567</p>
+                      <p><i class="fas fa-map-marker-alt"></i> 123 Tech St, City, State</p>
+                  </div>
+              </div>
+          </div>
+          
+          <div class="footer-bottom">
+              <p>&copy; 2024 Tech Store. All rights reserved.</p>
+          </div>
+      </div>
+  </footer> 
+</body>
+</html>

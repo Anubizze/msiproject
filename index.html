@@ -1,0 +1,845 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Store - Latest Technology</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+</head>
+<body>
+    <!-- Header -->
+<!-- Подключите Poppins через Google Fonts в <head> -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+<!-- Верхний информационный бар -->
+<div class="header-top">
+  <div class="header-info">
+    <span class="info-item">
+      <i class="fas fa-envelope"></i>
+      info@techstore.com
+    </span>
+    <span class="info-item">
+      <i class="fas fa-map-marker-alt"></i>
+      Store Location
+    </span>
+  </div>
+  <div class="header-promo">
+    <span>Free shipping on orders over $50</span>
+    <div class="social-links">
+      <span>Follow us:</span>
+      <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+      <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+      <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+    </div>
+  </div>
+</div>
+
+<!-- Основной header -->
+<header class="header">
+  <img src="img/gllogo.jpg"Tech Store Logo" class="logo">
+  <nav>
+    <ul>
+      <li><a href="#">Laptops</a></li>
+      <li><a href="#">Desktop PCs</a></li>
+      <li><a href="#">Printers & Scanners</a></li>
+      <li><a href="#">Networking Devices</a></li>
+      <li><a href="#">PC Parts</a></li>
+      <li><a href="#">All Other Products</a></li>
+      <li><a href="#">Repairs</a></li>
+    </ul>
+  </nav>
+  <div class="header-actions">
+    <button class="header-icon" aria-label="Search"><i class="fas fa-search"></i></button>
+    <button class="header-icon cart" aria-label="Cart">
+      <i class="fas fa-shopping-cart"></i>
+      <span class="cart-badge">2</span>
+    </button>
+  </div>
+</header>
+
+<div class="hero-scroll-wrapper">
+  <button class="scroll-btn left" onclick="scrollHero(-1)">
+    <svg viewBox="0 0 24 24" class="arrow-svg">
+      <path d="M15 19l-7-7 7-7" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+  </button>
+  <div class="hero-scroll" id="heroScroll">
+    <!-- Пример одного баннера -->
+    <section class="hero" id="home">
+      <img src="img/glavfonbanner.jpg" alt="Фоновое изображение" class="hero-bg">
+      <div class="container">
+        <div class="hero-content">
+          <h1 class="hero-title">
+            <span class="title-line">Latest Tech</span>
+            <span class="title-line highlight">Amazing Prices</span>
+          </h1>
+          <p class="hero-description">
+            Discover the latest technology at unbeatable prices. 
+            Free shipping on orders over $50.
+          </p>
+          <div class="hero-buttons">
+            <a href="#products" class="btn btn-primary">Shop Now</a>
+            <a href="shop.html" class="btn btn-secondary">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Добавьте еще секции hero для скролла -->
+  </div>
+  <button class="scroll-btn right" onclick="scrollHero(1)">
+    <svg viewBox="0 0 24 24" class="arrow-svg">
+      <path d="M9 5l7 7-7 7" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+  </button>
+</div>
+
+    <!-- Featured Products -->
+    <section class="products" id="products">
+        <div class="container">
+            <div class="products-header">
+         <h2 class="products-title">New Products</h2>
+         <a href="shop.html" class="products-link">See All New Products</a>
+         </div>
+            
+            <div class="products-grid" id="productsGrid">
+                <!-- Карточки товаров из второго кода -->
+                <div class="product-card">
+                    <div class="product-body">
+                        <svg width="12" height="12" viewBox="0 0 24 24" fill="none">
+                            <circle cx="12" cy="12" r="12" fill="#28a745" />
+                            <path d="M7 12l3 3 7-7" stroke="white" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                        <span style="font-size: 10px; color: #28a745; font-weight: bold;">In stock</span>
+                        <img src="img/laptop1.png" alt="laptop">
+                        <div class="rating-stars">
+                            <svg width="13" height="13" viewBox="0 0 24 24" fill="#E9A426" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12 2L14.85 8.47L22 9.24L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.24L9.15 8.47L12 2Z" />
+                            </svg>
+                            <svg width="13" height="13" viewBox="0 0 24 24" fill="#E9A426" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12 2L14.85 8.47L22 9.24L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.24L9.15 8.47L12 2Z" />
+                            </svg>
+                            <svg width="13" height="13" viewBox="0 0 24 24" fill="#E9A426" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12 2L14.85 8.47L22 9.24L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.24L9.15 8.47L12 2Z" />
+                            </svg>
+                            <svg width="13" height="13" viewBox="0 0 24 24" fill="#E9A426" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12 2L14.85 8.47L22 9.24L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.24L9.15 8.47L12 2Z" />
+                            </svg>
+                            <svg width="13" height="13" viewBox="0 0 24 24" fill="#CACDD8" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12 2L14.85 8.47L22 9.24L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.24L9.15 8.47L12 2Z" />
+                            </svg>
+                            <span class="card-reviews">Reviews (4)</span>
+                            <p class="cars-text">EX DISPLAY: MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-One</p>
+                            <p style="font-size: 14px;"><del>$499.00</del></p>
+                            <p style="font-size: 18px;"><b>$499.00</b></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-body">
+                        <svg width="12" height="12" viewBox="0 0 24 24" fill="none">
+                            <circle cx="12" cy="12" r="12" fill="#28a745" />
+                            <path d="M7 12l3 3 7-7" stroke="white" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                        <span style="font-size: 10px; color: #28a745; font-weight: bold;">In stock</span>
+                        <img src="img/laptop2.png" alt="laptop">
+                        <div class="rating-stars">
+                            <svg width="13" height="13" viewBox="0 0 24 24" fill="#E9A426" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12 2L14.85 8.47L22 9.24L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.24L9.15 8.47L12 2Z" />
+                            </svg>
+                            <svg width="13" height="13" viewBox="0 0 24 24" fill="#E9A426" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12 2L14.85 8.47L22 9.24L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.24L9.15 8.47L12 2Z" />
+                            </svg>
+                            <svg width="13" height="13" viewBox="0 0 24 24" fill="#E9A426" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12 2L14.85 8.47L22 9.24L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.24L9.15 8.47L12 2Z" />
+                            </svg>
+                            <svg width="13" height="13" viewBox="0 0 24 24" fill="#E9A426" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12 2L14.85 8.47L22 9.24L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.24L9.15 8.47L12 2Z" />
+                            </svg>
+                            <svg width="13" height="13" viewBox="0 0 24 24" fill="#CACDD8" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12 2L14.85 8.47L22 9.24L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.24L9.15 8.47L12 2Z" />
+                            </svg>
+                            <span class="card-reviews">Reviews (4)</span>
+                            <p class="cars-text">EX DISPLAY: MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-One</p>
+                            <p style="font-size: 14px;"><del>$499.00</del></p>
+                            <p style="font-size: 18px;"><b>$499.00</b></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-body">
+                        <svg width="12" height="12" viewBox="0 0 24 24" fill="none">
+                            <circle cx="12" cy="12" r="12" fill="#28a745" />
+                            <path d="M7 12l3 3 7-7" stroke="white" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                        <span style="font-size: 10px; color: #28a745; font-weight: bold;">In stock</span>
+                        <img src="img/laptop3.png" alt="laptop">
+                        <div class="rating-stars">
+                            <svg width="13" height="13" viewBox="0 0 24 24" fill="#E9A426" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12 2L14.85 8.47L22 9.24L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.24L9.15 8.47L12 2Z" />
+                            </svg>
+                            <svg width="13" height="13" viewBox="0 0 24 24" fill="#E9A426" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12 2L14.85 8.47L22 9.24L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.24L9.15 8.47L12 2Z" />
+                            </svg>
+                            <svg width="13" height="13" viewBox="0 0 24 24" fill="#E9A426" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12 2L14.85 8.47L22 9.24L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.24L9.15 8.47L12 2Z" />
+                            </svg>
+                            <svg width="13" height="13" viewBox="0 0 24 24" fill="#E9A426" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12 2L14.85 8.47L22 9.24L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.24L9.15 8.47L12 2Z" />
+                            </svg>
+                            <svg width="13" height="13" viewBox="0 0 24 24" fill="#CACDD8" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12 2L14.85 8.47L22 9.24L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.24L9.15 8.47L12 2Z" />
+                            </svg>
+                            <span class="card-reviews">Reviews (4)</span>
+                            <p class="cars-text">EX DISPLAY: MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-One</p>
+                            <p style="font-size: 14px;"><del>$499.00</del></p>
+                            <p style="font-size: 18px;"><b>$499.00</b></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-body">
+                        <svg width="12" height="12" viewBox="0 0 24 24" fill="none">
+                            <circle cx="12" cy="12" r="12" fill="#28a745" />
+                            <path d="M7 12l3 3 7-7" stroke="white" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                        <span style="font-size: 10px; color: #28a745; font-weight: bold;">In stock</span>
+                        <img src="img/laptop4.png" alt="laptop">
+                        <div class="rating-stars">
+                            <svg width="13" height="13" viewBox="0 0 24 24" fill="#E9A426" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12 2L14.85 8.47L22 9.24L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.24L9.15 8.47L12 2Z" />
+                            </svg>
+                            <svg width="13" height="13" viewBox="0 0 24 24" fill="#E9A426" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12 2L14.85 8.47L22 9.24L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.24L9.15 8.47L12 2Z" />
+                            </svg>
+                            <svg width="13" height="13" viewBox="0 0 24 24" fill="#E9A426" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12 2L14.85 8.47L22 9.24L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.24L9.15 8.47L12 2Z" />
+                            </svg>
+                            <svg width="13" height="13" viewBox="0 0 24 24" fill="#E9A426" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12 2L14.85 8.47L22 9.24L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.24L9.15 8.47L12 2Z" />
+                            </svg>
+                            <svg width="13" height="13" viewBox="0 0 24 24" fill="#CACDD8" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12 2L14.85 8.47L22 9.24L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.24L9.15 8.47L12 2Z" />
+                            </svg>
+                            <span class="card-reviews">Reviews (4)</span>
+                            <p class="cars-text">EX DISPLAY: MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-One</p>
+                            <p style="font-size: 14px;"><del>$499.00</del></p>
+                            <p style="font-size: 18px;"><b>$499.00</b></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-body">
+                        <svg width="12" height="12" viewBox="0 0 24 24" fill="none">
+                            <circle cx="12" cy="12" r="12" fill="#28a745" />
+                            <path d="M7 12l3 3 7-7" stroke="white" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                        <span style="font-size: 10px; color: #28a745; font-weight: bold;">In stock</span>
+                        <img src="img/laptop5.png" alt="laptop">
+                        <div class="rating-stars">
+                            <svg width="13" height="13" viewBox="0 0 24 24" fill="#E9A426" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12 2L14.85 8.47L22 9.24L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.24L9.15 8.47L12 2Z" />
+                            </svg>
+                            <svg width="13" height="13" viewBox="0 0 24 24" fill="#E9A426" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12 2L14.85 8.47L22 9.24L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.24L9.15 8.47L12 2Z" />
+                            </svg>
+                            <svg width="13" height="13" viewBox="0 0 24 24" fill="#E9A426" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12 2L14.85 8.47L22 9.24L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.24L9.15 8.47L12 2Z" />
+                            </svg>
+                            <svg width="13" height="13" viewBox="0 0 24 24" fill="#E9A426" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12 2L14.85 8.47L22 9.24L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.24L9.15 8.47L12 2Z" />
+                            </svg>
+                            <svg width="13" height="13" viewBox="0 0 24 24" fill="#CACDD8" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12 2L14.85 8.47L22 9.24L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.24L9.15 8.47L12 2Z" />
+                            </svg>
+                            <span class="card-reviews">Reviews (4)</span>
+                            <p class="cars-text">EX DISPLAY: MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-One</p>
+                            <p style="font-size: 14px;"><del>$499.00</del></p>
+                            <p style="font-size: 18px;"><b>$499.00</b></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Zip Banner -->
+<div class="zip-banner">
+  <img src="img/ziplogo.jpg" alt="Zip Logo" class="zip-logo">
+  
+  <!-- палочка -->
+  <div class="zip-separator"></div>
+  
+  <span><strong>own it now, up to 6 months interest free</strong></span>
+  <a href="#" class="zip-learn-more">learn more</a>
+</div>
+
+<div class="catalog">
+  <!-- Первая строка (Custom Builds и 5 ПК) -->
+ <div class="catalog-row">
+  <div class="catalog-banner">
+    <img src="img/1fonbanner.jpg" alt="Custom Builds">
+    <div class="banner-text">
+      <div class="banner-title">Custom Builds</div>
+      <a href="#">See All Desktop Stock</a>
+    </div>
+  </div>
+
+    <div class="catalog-item">
+      <div class="catalog-instock">In stock</div>
+      <img src="img/charlie v6.jpg" alt="Charlie V6">
+      <div class="catalog-title">CHARLIE V6</div>
+      <div class="catalog-desc">EX DISPLAY: MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-One</div>
+      <div class="catalog-rating">
+        <span class="star">&#9733;</span>
+        <span class="star">&#9733;</span>
+        <span class="star">&#9733;</span>
+        <span class="star">&#9733;</span>
+        <span class="star star-empty">&#9733;</span>
+        <span class="review">(4)</span>
+      </div>
+      <div class="catalog-prices"><del>$499.00</del> <span class="price">$499.00</span></div>
+    </div>
+    <!-- Повторить .catalog-item для Bravo V6, Alpha V6, Zulu V6, Delta V6 -->
+     <div class="catalog-item">
+      <div class="catalog-instock">In stock</div>
+      <img src="img/bravo v6.jpg" alt="Charlie V6">
+      <div class="catalog-title">CHARLIE V6</div>
+      <div class="catalog-desc">EX DISPLAY: MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-One</div>
+      <div class="catalog-rating">
+        <span class="star">&#9733;</span>
+        <span class="star">&#9733;</span>
+        <span class="star">&#9733;</span>
+        <span class="star">&#9733;</span>
+        <span class="star star-empty">&#9733;</span>
+        <span class="review">(4)</span>
+      </div>
+      <div class="catalog-prices"><del>$499.00</del> <span class="price">$499.00</span></div>
+    </div>
+     <div class="catalog-item">
+      <div class="catalog-instock">In stock</div>
+      <img src="img/alpha v6.jpg" alt="Charlie V6">
+      <div class="catalog-title">CHARLIE V6</div>
+      <div class="catalog-desc">EX DISPLAY: MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-One</div>
+      <div class="catalog-rating">
+        <span class="star">&#9733;</span>
+        <span class="star">&#9733;</span>
+        <span class="star">&#9733;</span>
+        <span class="star">&#9733;</span>
+        <span class="star star-empty">&#9733;</span>
+        <span class="review">(4)</span>
+      </div>
+      <div class="catalog-prices"><del>$499.00</del> <span class="price">$499.00</span></div>
+    </div>
+     <div class="catalog-item">
+      <div class="catalog-instock">In stock</div>
+      <img src="img/zulu v6.jpg" alt="Charlie V6">
+      <div class="catalog-title">CHARLIE V6</div>
+      <div class="catalog-desc">EX DISPLAY: MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-One</div>
+      <div class="catalog-rating">
+        <span class="star">&#9733;</span>
+        <span class="star">&#9733;</span>
+        <span class="star">&#9733;</span>
+        <span class="star">&#9733;</span>
+        <span class="star star-empty">&#9733;</span>
+        <span class="review">(4)</span>
+      </div>
+      <div class="catalog-prices"><del>$499.00</del> <span class="price">$499.00</span></div>
+    </div>
+     <div class="catalog-item">
+      <div class="catalog-instock">In stock</div>
+      <img src="img/delta v6.jpg" alt="Charlie V6">
+      <div class="catalog-title">CHARLIE V6</div>
+      <div class="catalog-desc">EX DISPLAY: MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-One</div>
+      <div class="catalog-rating">
+        <span class="star">&#9733;</span>
+        <span class="star">&#9733;</span>
+        <span class="star">&#9733;</span>
+        <span class="star">&#9733;</span>
+        <span class="star star-empty">&#9733;</span>
+        <span class="review">(4)</span>
+      </div>
+      <div class="catalog-prices"><del>$499.00</del> <span class="price">$499.00</span></div>
+    </div>
+  </div>
+  <!-- Вторая строка (MSI Laptops и 5 ноутбуков) -->
+<div class="catalog-row">
+  <div class="catalog-banner">
+    <img src="img/2fonbanner.jpg" alt="MSI Laptops">
+    <div class="banner-text">
+      <div class="banner-title">MSI Laptops</div>
+      <a href="#">See All Products</a>
+    </div>
+  </div>
+
+    <div class="catalog-item">
+      <div class="catalog-instock">In stock</div>
+      <img src="img/1nout.jpg" alt="MSI Laptop">
+      <div class="catalog-title">MSI Pro 16 Flex</div>
+      <div class="catalog-desc">EX DISPLAY: MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-One</div>
+      <div class="catalog-rating">
+        <span class="star">&#9733;</span>
+        <span class="star">&#9733;</span>
+        <span class="star">&#9733;</span>
+        <span class="star">&#9733;</span>
+        <span class="star star-empty">&#9733;</span>
+        <span class="review">(4)</span>
+      </div>
+      <div class="catalog-prices"><del>$499.00</del> <span class="price">$499.00</span></div>
+    </div>
+    <!-- Повторить .catalog-item для остальных ноутбуков, одну с border: 2px dashed #a259ff; -->
+         <div class="catalog-item">
+      <div class="catalog-instock">In stock</div>
+      <img src="img/2nout.jpg" alt="MSI Laptop">
+      <div class="catalog-title">MSI Pro 16 Flex</div>
+      <div class="catalog-desc">EX DISPLAY: MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-One</div>
+      <div class="catalog-rating">
+        <span class="star">&#9733;</span>
+        <span class="star">&#9733;</span>
+        <span class="star">&#9733;</span>
+        <span class="star">&#9733;</span>
+        <span class="star star-empty">&#9733;</span>
+        <span class="review">(4)</span>
+      </div>
+      <div class="catalog-prices"><del>$499.00</del> <span class="price">$499.00</span></div>
+    </div>
+    <!-- Повторить .catalog-item для остальных ноутбуков, одну с border: 2px dashed #a259ff; -->
+         <div class="catalog-item">
+      <div class="catalog-instock">In stock</div>
+      <img src="img/3nout.jpg" alt="MSI Laptop">
+      <div class="catalog-title">MSI Pro 16 Flex</div>
+      <div class="catalog-desc">EX DISPLAY: MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-One</div>
+      <div class="catalog-rating">
+        <span class="star">&#9733;</span>
+        <span class="star">&#9733;</span>
+        <span class="star">&#9733;</span>
+        <span class="star">&#9733;</span>
+        <span class="star star-empty">&#9733;</span>
+        <span class="review">(4)</span>
+      </div>
+      <div class="catalog-prices"><del>$499.00</del> <span class="price">$499.00</span></div>
+    </div>
+    <!-- Повторить .catalog-item для остальных ноутбуков, одну с border: 2px dashed #a259ff; -->
+         <div class="catalog-item">
+      <div class="catalog-instock">In stock</div>
+      <img src="img/4nout.jpg" alt="MSI Laptop">
+      <div class="catalog-title">MSI Pro 16 Flex</div>
+      <div class="catalog-desc">EX DISPLAY: MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-One</div>
+      <div class="catalog-rating">
+        <span class="star">&#9733;</span>
+        <span class="star">&#9733;</span>
+        <span class="star">&#9733;</span>
+        <span class="star">&#9733;</span>
+        <span class="star star-empty">&#9733;</span>
+        <span class="review">(4)</span>
+      </div>
+      <div class="catalog-prices"><del>$499.00</del> <span class="price">$499.00</span></div>
+    </div>
+    <!-- Повторить .catalog-item для остальных ноутбуков, одну с border: 2px dashed #a259ff; -->
+         <div class="catalog-item">
+      <div class="catalog-instock">In stock</div>
+      <img src="img/5nout.jpg" alt="MSI Laptop">
+      <div class="catalog-title">MSI Pro 16 Flex</div>
+      <div class="catalog-desc">EX DISPLAY: MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-One</div>
+      <div class="catalog-rating">
+        <span class="star">&#9733;</span>
+        <span class="star">&#9733;</span>
+        <span class="star">&#9733;</span>
+        <span class="star">&#9733;</span>
+        <span class="star star-empty">&#9733;</span>
+        <span class="review">(4)</span>
+      </div>
+      <div class="catalog-prices"><del>$499.00</del> <span class="price">$499.00</span></div>
+    </div>
+    <!-- Повторить .catalog-item для остальных ноутбуков, одну с border: 2px dashed #a259ff; -->
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+
+  
+  <!-- Третья строка (Desktops и 5 системных блоков) -->
+ <div class="catalog-row">
+  <div class="catalog-banner">
+    <img src="img/3fonbanner.jpg" alt="Desktops">
+    <div class="banner-text">
+      <div class="banner-title">Desktops</div>
+      <a href="#">See All Products</a>
+    </div>
+  </div>
+
+    <div class="catalog-item">
+      <div class="catalog-instock">In stock</div>
+      <img src="img/pc1.jpg" alt="MSI Desktop">
+      <div class="catalog-title">EX DISPLAY: MSI Pro 16</div>
+      <div class="catalog-desc">MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-One</div>
+      <div class="catalog-rating">
+        <span class="star">&#9733;</span>
+        <span class="star">&#9733;</span>
+        <span class="star">&#9733;</span>
+        <span class="star">&#9733;</span>
+        <span class="star star-empty">&#9733;</span>
+        <span class="review">(4)</span>
+      </div>
+      <div class="catalog-prices"><del>$499.00</del> <span class="price">$499.00</span></div>
+    </div>
+    <!-- Повторить .catalog-item для остальных ПК -->
+     <div class="catalog-item">
+      <div class="catalog-instock">In stock</div>
+      <img src="img/pc2.jpg" alt="MSI Desktop">
+      <div class="catalog-title">EX DISPLAY: MSI Pro 16</div>
+      <div class="catalog-desc">MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-One</div>
+      <div class="catalog-rating">
+        <span class="star">&#9733;</span>
+        <span class="star">&#9733;</span>
+        <span class="star">&#9733;</span>
+        <span class="star">&#9733;</span>
+        <span class="star star-empty">&#9733;</span>
+        <span class="review">(4)</span>
+      </div>
+      <div class="catalog-prices"><del>$499.00</del> <span class="price">$499.00</span></div>
+    </div>
+     <div class="catalog-item">
+      <div class="catalog-instock">In stock</div>
+      <img src="img/pc3.jpg" alt="MSI Desktop">
+      <div class="catalog-title">EX DISPLAY: MSI Pro 16</div>
+      <div class="catalog-desc">MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-One</div>
+      <div class="catalog-rating">
+        <span class="star">&#9733;</span>
+        <span class="star">&#9733;</span>
+        <span class="star">&#9733;</span>
+        <span class="star">&#9733;</span>
+        <span class="star star-empty">&#9733;</span>
+        <span class="review">(4)</span>
+      </div>
+      <div class="catalog-prices"><del>$499.00</del> <span class="price">$499.00</span></div>
+    </div>
+     <div class="catalog-item">
+      <div class="catalog-instock">In stock</div>
+      <img src="img/pc4.jpg" alt="MSI Desktop">
+      <div class="catalog-title">EX DISPLAY: MSI Pro 16</div>
+      <div class="catalog-desc">MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-One</div>
+      <div class="catalog-rating">
+        <span class="star">&#9733;</span>
+        <span class="star">&#9733;</span>
+        <span class="star">&#9733;</span>
+        <span class="star">&#9733;</span>
+        <span class="star star-empty">&#9733;</span>
+        <span class="review">(4)</span>
+      </div>
+      <div class="catalog-prices"><del>$499.00</del> <span class="price">$499.00</span></div>
+    </div>
+     <div class="catalog-item">
+      <div class="catalog-instock">In stock</div>
+      <img src="img/pc5.jpg" alt="MSI Desktop">
+      <div class="catalog-title">EX DISPLAY: MSI Pro 16</div>
+      <div class="catalog-desc">MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-One</div>
+      <div class="catalog-rating">
+        <span class="star">&#9733;</span>
+        <span class="star">&#9733;</span>
+        <span class="star">&#9733;</span>
+        <span class="star">&#9733;</span>
+        <span class="star star-empty">&#9733;</span>
+        <span class="review">(4)</span>
+      </div>
+      <div class="catalog-prices"><del>$499.00</del> <span class="price">$499.00</span></div>
+    </div>
+  </div>
+  <!-- Четвертая строка (Gaming Monitors и 5 мониторов) -->
+<div class="catalog-row">
+  <div class="catalog-banner">
+    <img src="img/4fonbanner.jpg" alt="Gaming Monitors">
+    <div class="banner-text">
+      <div class="banner-title">Gaming Monitors</div>
+      <a href="#">See All Products</a>
+    </div>
+  </div>
+
+    <div class="catalog-item">
+      <div class="catalog-instock">In stock</div>
+      <img src="img/monik1.jpg" alt="MSI Monitor">
+      <div class="catalog-title">EX DISPLAY: MSI Pro 16</div>
+      <div class="catalog-desc">MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-One</div>
+      <div class="catalog-rating">
+        <span class="star">&#9733;</span>
+        <span class="star">&#9733;</span>
+        <span class="star">&#9733;</span>
+        <span class="star">&#9733;</span>
+        <span class="star star-empty">&#9733;</span>
+        <span class="review">(4)</span>
+      </div>
+      <div class="catalog-prices"><del>$499.00</del> <span class="price">$499.00</span></div>
+    </div>
+    <!-- Повторить .catalog-item для остальных мониторов -->
+       <div class="catalog-item">
+      <div class="catalog-instock">In stock</div>
+      <img src="img/monik2.jpg" alt="MSI Monitor">
+      <div class="catalog-title">EX DISPLAY: MSI Pro 16</div>
+      <div class="catalog-desc">MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-One</div>
+      <div class="catalog-rating">
+        <span class="star">&#9733;</span>
+        <span class="star">&#9733;</span>
+        <span class="star">&#9733;</span>
+        <span class="star">&#9733;</span>
+        <span class="star star-empty">&#9733;</span>
+        <span class="review">(4)</span>
+      </div>
+      <div class="catalog-prices"><del>$499.00</del> <span class="price">$499.00</span></div>
+    </div>
+      <div class="catalog-item">
+      <div class="catalog-instock">In stock</div>
+      <img src="img/monik3.jpg" alt="MSI Monitor">
+      <div class="catalog-title">EX DISPLAY: MSI Pro 16</div>
+      <div class="catalog-desc">MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-One</div>
+      <div class="catalog-rating">
+        <span class="star">&#9733;</span>
+        <span class="star">&#9733;</span>
+        <span class="star">&#9733;</span>
+        <span class="star">&#9733;</span>
+        <span class="star star-empty">&#9733;</span>
+        <span class="review">(4)</span>
+      </div>
+      <div class="catalog-prices"><del>$499.00</del> <span class="price">$499.00</span></div>
+    </div>
+      <div class="catalog-item">
+      <div class="catalog-instock">In stock</div>
+      <img src="img/monik4.jpg" alt="MSI Monitor">
+      <div class="catalog-title">EX DISPLAY: MSI Pro 16</div>
+      <div class="catalog-desc">MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-One</div>
+      <div class="catalog-rating">
+        <span class="star">&#9733;</span>
+        <span class="star">&#9733;</span>
+        <span class="star">&#9733;</span>
+        <span class="star">&#9733;</span>
+        <span class="star star-empty">&#9733;</span>
+        <span class="review">(4)</span>
+      </div>
+      <div class="catalog-prices"><del>$499.00</del> <span class="price">$499.00</span></div>
+    </div>
+      <div class="catalog-item">
+      <div class="catalog-instock">In stock</div>
+      <img src="img/monik5.jpg" alt="MSI Monitor">
+      <div class="catalog-title">EX DISPLAY: MSI Pro 16</div>
+      <div class="catalog-desc">MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-One</div>
+      <div class="catalog-rating">
+        <span class="star">&#9733;</span>
+        <span class="star">&#9733;</span>
+        <span class="star">&#9733;</span>
+        <span class="star">&#9733;</span>
+        <span class="star star-empty">&#9733;</span>
+        <span class="review">(4)</span>
+      </div>
+      <div class="catalog-prices"><del>$499.00</del> <span class="price">$499.00</span></div>
+    </div>
+  </div>
+</div>
+
+<!-- Brand Logos Section -->
+<section class="brand-logos">
+  <div class="brand-logos-container">
+    <img src="img/roccat.jpg" alt="Roccat" />
+    <img src="img/msilogo.jpg" alt="MSI" />
+    <img src="img/razer.jpg" alt="Razer" />
+    <img src="img/thermake.jpg" alt="Thermaltake" />
+    <img src="img/adata.jpg" alt="Adata" />
+    <img src="img/hplogo.jpg" alt="HP" />
+    <img src="img/gigabytelogo.jpg" alt="Gigabyte" />
+  </div>
+</section>
+
+<section class="instagram-section">
+  <h2>Follow us on Instagram for News, Offers & More</h2>
+  <div class="instagram-grid">
+    <div class="insta-card">
+      <img src="img/1news.jpg" alt="HP Laptop">
+      <p>If you’ve recently made a desktop PC or laptop purchase, you might want to consider adding peripherals to enhance your home office setup, your gaming rig, or your business workspace.</p>
+      <span class="date">01.09.2020</span>
+    </div>
+
+    <div class="insta-card">
+      <img src="img/2news.jpg" alt="Gamer Sound Card">
+      <p>As a gamer, superior sound counts for a lot. You need to hear enemies tiptoeing up behind you for a sneak attack or a slight change in the atmosphere...</p>
+      <span class="date">01.09.2020</span>
+    </div>
+
+    <div class="insta-card">
+      <img src="img/3news.jpg" alt="Gaming Desk Setup">
+      <p>If you’ve recently made a desktop PC or laptop purchase, you might want to consider adding peripherals to enhance your home office setup, your gaming rig, or your business workspace.</p>
+      <span class="date">01.09.2020</span>
+    </div>
+
+    <div class="insta-card">
+      <img src="img/4news.jpg" alt="Desk Setup">
+      <p>If you’ve recently made a desktop PC or laptop purchase, you might want to consider adding peripherals to enhance your home office setup, your gaming rig, or your business workspace.</p>
+      <span class="date">01.09.2020</span>
+    </div>
+
+    <div class="insta-card">
+      <img src="img/5news.jpg" alt="Mouse">
+      <p>If you’ve recently made a desktop PC or laptop purchase, you might want to consider adding peripherals to enhance your home office setup, your gaming rig, or your business workspace.</p>
+      <span class="date">01.09.2020</span>
+    </div>
+
+    <div class="insta-card">
+      <img src="img/6news.jpg" alt="RGB Keyboard">
+      <p>If you’ve recently made a desktop PC or laptop purchase, you might want to consider adding peripherals to enhance your home office setup, your gaming rig, or your business workspace.</p>
+      <span class="date">01.09.2020</span>
+    </div>
+
+    <div class="insta-card">
+      <img src="img/7news.jpg" alt="Gaming RGB Setup">
+      <p>If you’ve recently made a desktop PC or laptop purchase, you might want to consider adding peripherals to enhance your home office setup, your gaming rig, or your business workspace.</p>
+      <span class="date">01.09.2020</span>
+    </div>
+
+    <div class="insta-card">
+      <img src="img/8news.jpg" alt="Laptop Top View">
+      <p>If you’ve recently made a desktop PC or laptop purchase, you might want to consider adding peripherals to enhance your home office setup, your gaming rig, or your business workspace.</p>
+      <span class="date">01.09.2020</span>
+    </div>
+  </div>
+</section>
+
+<section class="testimonial-section">
+  <div class="testimonial-container">
+    <div class="quote-mark">❝</div>
+    <p class="testimonial-text">
+      My first order arrived today in perfect condition. From the time I sent a question about the item to making the purchase, to the shipping and now the delivery, your company, Tecs, has stayed in touch. Such great service. I look forward to shopping on your site in the future and would highly recommend it.
+    </p>
+    <div class="testimonial-footer">
+      <span class="author">– Tama Brown</span>
+      <div class="dots">
+        <span class="dot active"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+      </div>
+    </div>
+    <a href="#" class="review-button">Leave Us A Review</a>
+  </div>
+</section>
+
+
+<section class="features-section">
+  <div class="features-container">
+    <div class="feature-item">
+      <div class="icon-circle">
+        <i class="fas fa-headset"></i>
+      </div>
+      <h3>Product Support</h3>
+      <p>Up to 3 years on-site warranty available for your peace of mind.</p>
+    </div>
+
+    <div class="feature-item">
+      <div class="icon-circle">
+        <i class="fas fa-user-circle"></i>
+      </div>
+      <h3>Personal Account</h3>
+      <p>With big discounts, free delivery and a dedicated support specialist.</p>
+    </div>
+
+    <div class="feature-item">
+      <div class="icon-circle">
+        <i class="fas fa-tags"></i>
+      </div>
+      <h3>Amazing Savings</h3>
+      <p>Up to 70% off new Products, you can be sure of the best price.</p>
+    </div>
+  </div>
+</section>
+
+
+    <!-- Footer -->
+    <footer class="footer" id="contact">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>About Us</h3>
+                    <p>We provide the latest technology at the best prices with excellent customer service.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#products">Products</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Customer Service</h3>
+                    <ul>
+                        <li><a href="#">Shipping Info</a></li>
+                        <li><a href="#">Returns</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Support</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Contact Info</h3>
+                    <div class="contact-info">
+                        <p><i class="fas fa-envelope"></i> info@techstore.com</p>
+                        <p><i class="fas fa-phone"></i> (555) 123-4567</p>
+                        <p><i class="fas fa-map-marker-alt"></i> 123 Tech St, City, State</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 Tech Store. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Search Modal -->
+    <div class="modal" id="searchModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Search Products</h3>
+                <button class="modal-close" id="closeSearchModal">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div class="modal-body">
+                <input type="text" placeholder="Search for products..." id="searchInput">
+                <button class="btn btn-primary">Search</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Cart Modal -->
+    <div class="modal" id="cartModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Shopping Cart</h3>
+                <button class="modal-close" id="closeCartModal">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div id="cartItems">
+                    <!-- Cart items will be loaded here -->
+                </div>
+                <div class="cart-total">
+                    <h4>Total: $<span id="cartTotal">0</span></h4>
+                    <button class="btn btn-primary">Checkout</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
